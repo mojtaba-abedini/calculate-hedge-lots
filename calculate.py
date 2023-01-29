@@ -24,15 +24,15 @@ L9 = abs((L1*TP)-(L2*TPR2)+(L3*TP)-(L4*TPR2)+(L5*TP)-(L6*TPR2)+(L7*TP)-(L8*TPR2)
 
 L10 = abs((-L1*TP)+(L2*TPR1)-(L3*TP)+(L4*TPR1)-(L5*TP)+(L6*TPR1)-(L7*TP)+(L8*TPR1)-(L9*TP))/(TPR1 - PPO)
 
-print(L2)
-print(L3)
-print(L4)
-print(L5)
-print(L6)
-print(L7)
-print(L8)
-print(L9)
-print(L10)
+print(round(L2,2))
+print(round(L3,2))
+print(round(L4,2))
+print(round(L5,2))
+print(round(L6,2))
+print(round(L7,2))
+print(round(L8,2))
+print(round(L9,2))
+print(round(L10,2))
 
 
 P1 = L1*TP
@@ -66,5 +66,5 @@ P10 = (-L1*TP) + (L2*TPR1) - (L3*TP) + (L4*TPR1) - (L5*TP) + (L6*TPR1) - (L7*TP)
 R10 = (L1*TP) - (L2*TPR2) + (L3*TP) - (L4*TPR2) + (L5*TP) - (L6*TPR2) + (L7*TP) - (L8*TPR2) + (L9*TP) - (L10*TPR2)
 
 print('----------------------------------')
-print(round(P10,2))
-print(round(R10,2))
+print('Max Lots : ',round(P10,2))
+print('Max Loss : ',round(R10,2))
